@@ -17,7 +17,7 @@ interactivity_layer: ''
 layers: null
 maxzoom: 21
 minzoom: 0
-name: Pencil
+name: Boho
 source: "mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5,mapbox.mapbox-bathymetry-v1"
 styles: 
   - style.mss

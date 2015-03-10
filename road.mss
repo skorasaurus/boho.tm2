@@ -91,7 +91,7 @@
     [class='motorway_link'],
     [class='main'] {
       [zoom=14] { line-pattern-file:url(img/line_double_14.png); }
-      [zoom=15] { line-pattern-file:url(img/line_double_16.png); }
+      [zoom=15] { line-pattern-file:url(img/ligne_double_16.png); }
       [zoom>15] { line-pattern-file:url(img/line_double_20.png); }
     }
     [class='street'],

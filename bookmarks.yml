@@ -5,6 +5,7 @@
     - 12.503899999999987
   tags: 
     - userbookmark
+  index: 0
 - place_name: Vatican City, 00183, ROMA, Italy
   zoom: 15
   center: 
@@ -12,6 +13,7 @@
     - 12.500092864265753
   tags: 
     - userbookmark
+  index: 1
 - place_name: 2901 Carroll Ave, Cleveland, 44113, Ohio, United States
   zoom: 16
   center: 
@@ -19,10 +21,19 @@
     - -81.70675992965698
   tags: 
     - userbookmark
+  index: 2
 - place_name: 2901 Carroll Ave, Cleveland, 44113, Ohio, United States
   zoom: 16
   center: 
     - 41.483698144266405
     - -81.70675992965698
+  tags: 
+    - userbookmark
+  index: 3
+- place_name: 2800 Whiskey Is, Cleveland, 44102, Ohio, United States
+  zoom: 15
+  center: 
+    - 41.498292501398545
+    - -81.72441959381104
   tags: 
     - userbookmark

@@ -12,12 +12,12 @@ Map {
 #water {
   // The ::dark and ::light attachments create a subtle inner-
   // shadow on water bodies for added contrast.
-  ::dark { polygon-fill: #aaa; }
+  ::dark { polygon-fill: #8486FF; }
   ::light14[zoom<=14],
   ::light15[zoom=15],
   ::light16[zoom=16],
   ::light17[zoom>=17] {
-    polygon-fill: #fff;
+    polygon-fill: #B7B8FF;
     polygon-gamma: 0.5;
    image-filters: agg-stack-blur(8,8);
     image-filters-inflate: true;
@@ -26,11 +26,7 @@ Map {
   ::light16[zoom=16] { image-filters: agg-stack-blur(32,32); }
   ::light17[zoom<=17] { image-filters: agg-stack-blur(64,64); }
   // Pencil shading texture:
-  ::texture {
-    comp-op: multiply;
-    polygon-pattern-alignment: global;
-    polygon-pattern-file:url(img/water.png);
-  }
+
 }
 
 #landuse {

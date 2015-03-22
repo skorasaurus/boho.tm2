@@ -23,4 +23,5 @@ styles:
   - style.mss
   - road.mss
   - terrain.mss
+  - labels.mss
 template: ''

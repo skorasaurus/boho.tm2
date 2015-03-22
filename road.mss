@@ -26,7 +26,7 @@
         b/line-width:2.0;
       }
     }
-    [zoom=12] { line-pattern-file:url(img/line_solid_7.png); }
+    [zoom=12] { line-pattern-file:url(img/ligne_solid_7.png); }
   }
   [class='motorway_link'],
   [class='main'] {
@@ -40,7 +40,7 @@
       [zoom=11] { a/line-width: 1.2; }
     }
     [zoom=12] { line-pattern-file:url(img/line_solid_6.png); }
-    [zoom=13] { line-pattern-file:url(img/line_solid_7.png); }
+    [zoom=13] { line-pattern-file:url(img/ligne_solid_7.png); }
   }
   [class='street'],
   [class='street_limited'] {
@@ -85,7 +85,7 @@
     [class='motorway'] {
       [zoom=13] { line-pattern-file:url(img/line_double_14.png); }
       [zoom=14] { line-pattern-file:url(img/line_double_16.png); }
-      [zoom=15] { line-pattern-file:url(img/line_double_18.png); }
+      [zoom=15] { line-pattern-file:url(img/ligne_double_18.png); }
       [zoom>15] { line-pattern-file:url(img/line_double_20.png); }
     }
     [class='motorway_link'],
@@ -97,7 +97,7 @@
     [class='street'],
     [class='street_limited'] {
       [zoom>=15] { line-pattern-file:url(img/line_double_14.png); }
-      [zoom>=16] { line-pattern-file:url(img/line_double_16.png); }
+      [zoom>=16] { line-pattern-file:url(img/ligne_double_16.png); }
     }
   }
 }
@@ -117,18 +117,18 @@
     [class='motorway'] {
       [zoom=13] { line-pattern-file:url(img/line_double_14_mask.png); }
       [zoom=14] { line-pattern-file:url(img/line_double_16_mask.png); }
-      [zoom=15] { line-pattern-file:url(img/line_double_18_mask.png); }
+      [zoom=15] { line-pattern-file:url(img/ligne_double_18_mask.png); }
       [zoom>15] { line-pattern-file:url(img/line_double_20_mask.png); }
     }
     [class='motorway_link'],
     [class='main'] {
-      [zoom=14] { line-pattern-file:url(img/line_double_14_mask.png); }
+      [zoom=14] { line-pattern-file:url(img/ligne_double_14_mask.png); }
       [zoom=15] { line-pattern-file:url(img/line_double_16_mask.png); }
       [zoom>15] { line-pattern-file:url(img/line_double_20_mask.png); }
     }
     [class='street'],
     [class='street_limited'] {
-      [zoom>=15] { line-pattern-file:url(img/line_double_14_mask.png); }
+      [zoom>=15] { line-pattern-file:url(img/ligne_double_14_mask.png); }
       [zoom>=16] { line-pattern-file:url(img/line_double_16_mask.png); }
     }
   }

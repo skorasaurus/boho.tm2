@@ -4,6 +4,8 @@
 // These were drawn by hand on paper, scanned, and tweaked in
 // image editing software.
 
+@bohocolor: #9C0066; 
+
 Map {
   background-image:url(img/parchment.png);
   // font-directory: url('');
@@ -12,18 +14,20 @@ Map {
 #water {
   // The ::dark and ::light attachments create a subtle inner-
   // shadow on water bodies for added contrast.
-  ::dark { polygon-fill: #8486FF; }
+  ::dark { polygon-fill: mix(#22008B, #ABBAFF,1);}
   ::light14[zoom<=14],
   ::light15[zoom=15],
   ::light16[zoom=16],
   ::light17[zoom>=17] {
-    polygon-fill: #B7B8FF;
-    polygon-gamma: 0.5;
-   image-filters: agg-stack-blur(8,8);
-    image-filters-inflate: true;
+    polygon-fill: #22008B;
+  // comp-op: grain-merge;
+    comp-op: soft-light;
+  image-filters: agg-stack-blur(4,4);
+   image-filters-inflate: true; 
+    opacity: 0.8; 
   }
-  ::light15[zoom=15] { image-filters: agg-stack-blur(16,16); }
-  ::light16[zoom=16] { image-filters: agg-stack-blur(32,32); }
+ ::light15[zoom=15] { image-filters: agg-stack-blur(1,55); }
+  ::light16[zoom=16] { image-filters: agg-stack-blur(32, 32); }
   ::light17[zoom<=17] { image-filters: agg-stack-blur(64,64); }
   // Pencil shading texture:
 
